@@ -1,0 +1,11 @@
+first_year = int(input())
+annual_increase = float(input())
+second_year = first_year + (first_year * annual_increase)
+third_year = second_year + (second_year * annual_increase)
+fourth_year = third_year +(third_year * annual_increase)
+total = first_year + second_year +third_year + fourth_year
+print("Annual: ", first_year)
+print("Annual: ", second_year)
+print("Annual: ", third_year)
+print("Annual: ", fourth_year)
+print("total: ", total)
